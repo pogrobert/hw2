@@ -3,7 +3,7 @@ const errorMiddleware = require("./middlewares/error-handler.middleware");
 const express = require("express");
 
 const app = express();
-const port = 3131;
+const port = 3000;
 
 app.use("/cities", citiesController);
 
